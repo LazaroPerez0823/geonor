@@ -1,0 +1,81 @@
+/* Background picture on all pages */
+body {
+
+  background-image: url("../images/interlaced.png");
+  
+  }
+
+
+#myname {
+    background-color: #4aaaa5;
+    padding-top: 0;
+   
+  }
+
+  .footer {
+    z-index: 10000;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    height: 50px;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    text-align: center;
+
+  }
+
+
+  #about {
+float: left;
+    background: #fff;
+ 
+}
+
+h2 {
+color:  #4aaaa5;
+
+}
+
+img {
+
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+#portfolio1 {
+    
+        background: #fff;
+    }
+    
+
+
+  
+  
+  #placeholder1 {
+ 
+    padding-bottom: 20px;
+  }
+    
+
+    p.placeholdertitles  {
+   
+  z-index: 9999;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: #4aaaa5;
+  font-size: 14px;
+  color: white;
+  line-height: 30px;
+  width: 245px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+    bottom: 15px;
+  }
+  
+
+    
+  /* End of Portfolio section */
